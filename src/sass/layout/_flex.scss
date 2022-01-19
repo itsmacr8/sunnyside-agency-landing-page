@@ -1,0 +1,57 @@
+// Flex container classes
+.flex {
+    display: flex;
+    flex-direction: var(--direction, row);
+    align-items: var(--align-items);
+    justify-content: var(--justify-content);
+    gap: var(--gap, var(--spacer));
+    flex-wrap: var(--wrap, nowrap);
+}
+
+.j-c-between {
+    --justify-content: space-between;
+}
+
+.f-direction {
+    --direction: column;
+}
+
+.a-i-center {
+    --align-items: center;
+}
+
+.j-c-center {
+    --justify-content: center;
+}
+
+.gap {
+    --gap: 2rem;
+}
+
+.f-wrap {
+    --wrap: wrap;
+}
+
+// Flex item classes
+.flex__item {
+    flex: 1 1 auto;
+
+    &--cv {
+        @media screen and (min-width: $desktop) {
+            align-self: center;
+            flex-grow: 0;
+        }
+    }
+    &--40 {
+        @media screen and (min-width: $desktop) {
+            flex-basis: 40%;
+            flex-grow: 0;
+        }
+    }
+    &--55 {
+        @media screen and (min-width: $desktop) {
+            flex-basis: 55%;
+            flex-grow: 0;
+        }
+    }
+}
