@@ -1,3 +1,6 @@
+import "./favicon.png";
+import "./logo.svg";
+
 import "./mobile/image-gallery-cone.jpg";
 import "./mobile/image-gallery-milk-bottles.jpg";
 import "./mobile/image-gallery-orange.jpg";
