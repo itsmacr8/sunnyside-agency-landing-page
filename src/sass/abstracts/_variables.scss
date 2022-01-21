@@ -14,4 +14,8 @@ $for-desktop-only: 84.375em; //  1350px
     --black: hsl(0, 0%, 0%);
     --ff-fraunces: "Fraunces", serif;
     --spacer: 1rem;
+
+    @media screen and (min-width: $for-desktop-only) {
+        --spacer: 2rem;
+    }
 }

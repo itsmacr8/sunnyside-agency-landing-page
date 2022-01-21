@@ -1,5 +1,8 @@
 import "./favicon.png";
 import "./logo.svg";
+import "./image-emily.jpg";
+import "./image-thomas.jpg";
+import "./image-jennie.jpg";
 
 import "./mobile/image-gallery-cone.jpg";
 import "./mobile/image-gallery-milk-bottles.jpg";

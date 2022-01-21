@@ -62,3 +62,18 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.testimonial{
+
+    &-section{
+        background-color: var(--gray);
+        &__header{
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+    }
+    &__image{
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+}

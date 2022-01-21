@@ -12,6 +12,18 @@
             flex: 1 1 auto;
             flex-basis: 45%;
         }
+        &--2 {
+            flex-basis: 50%;
+            flex-grow: 0;
+            @media screen and (min-width: $for-tablet-any-mode) {
+                flex-basis: 25%;
+            }
+        }
+        &--mod {
+            @media screen and (min-width: $for-desktop-only) {
+                flex-basis: 30%;
+            }
+        }
     }
 }
 
