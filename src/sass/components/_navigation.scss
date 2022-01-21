@@ -44,7 +44,10 @@ header {
             text-align: center;
         }
         &:hover {
-            background-color: #555;
+            background-color: var(--gray-dark);
+            @media (max-width: $for-tablet-any-mode) {
+                background-color: transparent;
+            }
         }
     }
 

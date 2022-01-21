@@ -11,6 +11,15 @@ body {
     font-weight: 900;
 }
 
+.ff-700 {
+    font-family: var(--ff-fraunces);
+    font-weight: 700;
+}
+
+.section-header {
+    font-size: 2rem;
+}
+
 p {
     max-width: 600px;
     margin: 0;

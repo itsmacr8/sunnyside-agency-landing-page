@@ -1,0 +1,10 @@
+@mixin background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+
+@mixin background-image {
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+}

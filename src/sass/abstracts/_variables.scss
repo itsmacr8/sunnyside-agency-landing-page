@@ -9,6 +9,9 @@ $for-desktop-only: 84.375em; //  1350px
 
 :root {
     --white: hsl(0, 0%, 100%);
-    --ff-fraunces: 'Fraunces', serif;
+    --gray: hsl(0, 0%, 97%);
+    --gray-dark: hsla(0, 0%, 100%, 0.11);
+    --black: hsl(0, 0%, 0%);
+    --ff-fraunces: "Fraunces", serif;
     --spacer: 1rem;
 }

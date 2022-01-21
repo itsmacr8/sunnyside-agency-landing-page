@@ -1,18 +1,64 @@
-.hero{
+.hero {
     background-image: url("../images/desktop/image-header.jpg");
-    background-size: cover;
-    background-position: 50% 80%;
-    background-repeat: no-repeat;
+    @include background;
+    background-position: 50% 100%;
     min-height: 70vh;
 }
 
-.page-heading{
+.page-heading {
     font-size: 3rem;
     color: var(--white);
     text-transform: uppercase;
     letter-spacing: 10px;
 }
 
-.image-info{
-    padding: 1rem;
+.company-info {
+    background-color: var(--gray);
+    padding: 2rem;
+    @media screen and (min-width: $for-tablet-any-mode) {
+        padding: 0 3rem;
+    }
+}
+
+.learn-more-link {
+    color: var(--black);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: text-decoration 500ms ease-in-out;
+    &--transform {
+        text-decoration-color: hsl(50, 100%, 50%);
+        &:hover {
+            text-decoration: underline 2px solid hsl(50, 100%, 50%);
+        }
+    }
+    &--stand-out {
+        text-decoration-color: hsl(6, 100%, 70%);
+        &:hover {
+            text-decoration: underline 2px solid hsl(6, 100%, 70%);
+        }
+    }
+}
+
+.custom-order {
+    order: -1;
+    @media screen and (min-width: $for-tablet-any-mode) {
+        order: 0;
+    }
+}
+
+.graphic-design-background {
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    @include background;
+    @include background-image;
+}
+
+.photography-background {
+    background-image: url("../images/desktop/image-photography.jpg");
+    @include background;
+    @include background-image;
+}
+
+.custom-alignment-center {
+    margin-left: auto;
+    margin-right: auto;
 }
