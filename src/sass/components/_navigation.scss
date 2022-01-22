@@ -1,7 +1,5 @@
 header {
-    @media (max-width: $for-tablet-any-mode) {
-        padding: 1rem 0;
-    }
+    padding: 1rem 0;
 }
 
 .navbar {
@@ -12,10 +10,6 @@ header {
             --align-items: flex-start;
         }
     }
-}
-
-.brand-title {
-    font-size: 1.5rem;
 }
 
 .navbar-links {
@@ -32,17 +26,13 @@ header {
 .nav {
     display: flex;
     margin: 0;
-    padding: 0;
     @media (max-width: $for-tablet-any-mode) {
         width: 100%;
         flex-direction: column;
     }
 
     &__item {
-        list-style: none;
-        @media (max-width: $for-tablet-any-mode) {
-            text-align: center;
-        }
+        transition: background-color 300ms ease-in-out;
         &:hover {
             background-color: var(--gray-dark);
             @media (max-width: $for-tablet-any-mode) {

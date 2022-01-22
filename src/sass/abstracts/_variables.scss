@@ -1,20 +1,17 @@
-$mobile: 23.4375em; //  375px
-$desktop: 90em; //  1440px
-
 $for-tablet-any-mode: 50.625em; //  If you want to make 2 column in 810px in modern tablet portrait and also in landscape mode.
-
-$for-tablet-landscape-up: 54.375em; //  If you want to make 2 column in 870px in tablet landscape mode and its bigger viewport.
 
 $for-desktop-only: 84.375em; //  1350px
 
 :root {
     --white: hsl(0, 0%, 100%);
     --gray: hsl(0, 0%, 97%);
-    --gray-dark: hsla(0, 0%, 100%, 0.11);
+    --gray-dark: hsla(0, 0%, 100%, 0.25);
     --black: hsl(0, 0%, 0%);
     --ff-fraunces: "Fraunces", serif;
-    --spacer: 1rem;
+    --footer-background: hsl(169, 27%, 47%);
+    --footer-link: hsl(167.4, 100%, 8.4%);
 
+    --spacer: 1rem;
     @media screen and (min-width: $for-desktop-only) {
         --spacer: 2rem;
     }

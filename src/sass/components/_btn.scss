@@ -1,20 +1,20 @@
 .btn {
     border: none;
-    border-radius: 5px;
-    background-color: var(--primary);
-    color: var(--white, var(--black));
+    border-radius: 100vw;
+    background-color: var(--white);
+    color: var(--black);
     cursor: pointer;
     display: inline-block;
     padding: 0.75em 2em;
     text-transform: uppercase;
-    text-decoration: none;
-    transition: box-shadow 500ms ease-in-out;
+    transition: background-color 500ms ease-in-out;
 
     &:hover {
+        border-radius: 100vw;
         background-color: var(--gray-dark);
     }
 
     &:focus {
-        outline: 5px solid var(--black);
+        outline: 3px solid var(--black);
     }
 }

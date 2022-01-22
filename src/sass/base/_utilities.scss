@@ -1,10 +1,12 @@
+header,
 section,
-.footer {
+footer {
     max-width: 1200px;
     margin: auto;
 }
 
-.section{
+.section,
+.footer {
     padding: calc(var(--spacer) * 3.125) 0;
 }
 
@@ -17,14 +19,9 @@ section,
     text-align: center;
 }
 
-.text-align {
-    text-align: center;
-
-    @media screen and (min-width: $desktop) {
-        text-align: left;
-    }
+.m-0 {
+    margin: 0;
 }
-
 
 .mt-1 {
     margin-top: calc(var(--spacer) * 1);
@@ -50,50 +47,11 @@ section,
     margin-bottom: calc(var(--spacer) * 3);
 }
 
-.ml-1 {
-    margin-left: calc(var(--spacer) * 1);
-}
-
-.ml-2 {
-    margin-left: calc(var(--spacer) * 2);
-}
-
-.ml-3 {
-    margin-left: calc(var(--spacer) * 3);
-}
-
-.mr-1 {
-    margin-right: calc(var(--spacer) * 1);
-}
-
-.mr-2 {
-    margin-right: calc(var(--spacer) * 2);
-}
-
-.mr-3 {
-    margin-right: calc(var(--spacer) * 3);
-}
-
-.mx-1 {
-    margin-inline: calc(var(--spacer) * 1);
-}
-
-.mx-2 {
-    margin-inline: calc(var(--spacer) * 2);
-}
-
-.mx-3 {
-    margin-inline: calc(var(--spacer) * 3);
-}
-
 .my-1 {
     margin-block: calc(var(--spacer) * 1);
 }
 
-.my-2 {
-    margin-block: calc(var(--spacer) * 2);
-}
-
-.my-3 {
-    margin-block: calc(var(--spacer) * 3);
+.custom-alignment-center {
+    margin-left: auto;
+    margin-right: auto;
 }

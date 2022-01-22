@@ -1,5 +1,6 @@
 import "./favicon.png";
 import "./logo.svg";
+import "./logo-footer.svg";
 import "./image-emily.jpg";
 import "./image-thomas.jpg";
 import "./image-jennie.jpg";
@@ -13,7 +14,6 @@ import "./mobile/image-header.jpg";
 import "./mobile/image-photography.jpg";
 import "./mobile/image-stand-out.jpg";
 import "./mobile/image-transform.jpg";
-
 
 import "./desktop/image-gallery-cone.jpg";
 import "./desktop/image-gallery-milk-bottles.jpg";
